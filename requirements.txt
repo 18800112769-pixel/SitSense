@@ -1,0 +1,13 @@
+# Windows x64 / CPython 3.11; use requirements-lock.txt for a full reproduction.
+# MediaPipe requires the contrib distribution. Do not also install opencv-python.
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+Pillow==11.1.0
+protobuf==4.25.8
+# Keep MediaPipe's transitive numeric dependencies compatible with NumPy 1.x.
+jax==0.4.35
+jaxlib==0.4.35
+scipy==1.15.2
+matplotlib==3.10.0
+PySide6==6.8.3
